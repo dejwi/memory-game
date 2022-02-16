@@ -1,5 +1,5 @@
 import CardContainer from './CardContainer';
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 
 function App() {
   const [score,setScore] = useState(0);
